@@ -1,0 +1,5 @@
+
+# make sure it's publically accessible, caddy will generate one for you.
+your.domain.here 
+
+reverse_proxy 127.0.0.1:9000
