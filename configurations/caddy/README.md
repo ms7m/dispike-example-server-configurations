@@ -29,7 +29,7 @@ You can either:
   - You'll need to bind to a local ip address (127.0.0.1) and bind to 9000.
     - ```bot.run(port=9000)```
 - Run the bot using [Uvicorn](https://www.uvicorn.org/deployment/) (or Hypercorn) and reference ``.referenced_application`` attribute on an initalized Dispike object.
-  - ```uvicorn sample:bot.referenced_application --port 9000``
+  - ```uvicorn sample:bot.referenced_application --port 9000```
   
 - Run [Caddy](https://caddyserver.com/docs/getting-started)
 - You can run dispike in the foreground and let caddy run the background.
